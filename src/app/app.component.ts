@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {AfterViewChecked, Component, OnChanges, SimpleChanges} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hidden-list';
+  items: any = [1, 2, 3, 4, 5, 6];
+  constructor() {}
 }

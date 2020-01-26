@@ -1,0 +1,21 @@
+.hidden-list{
+  width: fit-content;
+  margin: 20px;
+  padding: 20px 10px;
+  background: #f9f9f9;
+  border-radius: 8px;
+}
+
+.header{
+  font-size: 20px;
+}
+
+.list{
+  overflow: hidden;
+  transition: 0.2s height ease;
+}
+
+.list > li{
+  margin: 2px;
+}
+
